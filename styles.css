@@ -1,0 +1,144 @@
+body {
+  font-family: Tahoma;
+  color: rgb(247, 117, 10);
+  letter-spacing: 1px;
+  background-image: url("assets/study.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 6px 1px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 10 0 20px;
+  overflow: hidden;
+  border: 3px solid rgb(251, 255, 249);
+}
+
+#page-banner {
+  background: rgb(61, 60, 60);
+  padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#page-banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 9px;
+  border: 1px solid rgb(6, 6, 7);
+  border-radius: 8px;
+  font-size: 17px;
+  color: #444;
+}
+
+#bottom {
+  background-color: black;
+}
+
+#Target-list,
+#add-book,
+#tabbed-content {
+  background-color: black;
+  color: #7be5f3;
+}
+
+.title {
+  margin-left: 60px;
+  margin-top: 0;
+}
+
+#Target-list ul,
+#tabbed-content ul {
+  list-style-type: none;
+  padding: 10;
+  color: aliceblue;
+}
+
+#Target-list li {
+  padding: 20px;
+  /* border-left: 2px solid rgb(241, 235, 235); */
+  margin: 10px 20px;
+}
+
+#Target-list li:hover {
+  border-color: #f7cf09;
+}
+
+.delete {
+  float: right;
+  background: #f7cf09;
+  padding: 7px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* margin-left: 50px; */
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.status {
+  float: right;
+  margin-right: 10px;
+  background-image: url("assets/cross2.png");
+  background-size: 35px 39px;
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px;
+}
+
+.delete:hover {
+  background: white;
+}
+
+.status:hover {
+  background: #f7cf09;
+}
+
+#add-event {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-event input {
+  display: block;
+  margin: 20px 0;
+  padding: 9px;
+  border: 1px solid rgb(24, 22, 22);
+  font-size: 17px;
+  border-radius: 8px 0 0 8px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}
+
+#add-event button {
+  border: 1px solid #080808;
+  background: rgb(247, 117, 10);
+  padding: 9px 25px;
+  font-size: 17px;
+  display: inline-block;
+  margin: 10;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 20px 0;
+  border-left: 0;
+  color: rgb(20, 2, 2);
+}
